@@ -7,7 +7,7 @@ script:
 deploy:
   provider: heroku
   api_key:
-    secure: bfac0fea-c581-4d84-bb8b-59fb9b8ceb03
+    secure: ${{ secrets.SECRET_TOKEN }}
   app: inGaia-square-meter-api
   on:
     repo: RogerioSobrinho/inGaia-square-meter-api
