@@ -1,4 +1,4 @@
-export const SquareMeterPriceSchema = {
+export const squareMeterPriceSchema = {
   type: 'object',
   properties: {
     price: {

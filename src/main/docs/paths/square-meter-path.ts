@@ -9,7 +9,7 @@ export const squareMeterPricePath = {
         content: {
           'application/json': {
             schema: {
-              $ref: '#/schemas/SquareMeterPriceSchema'
+              $ref: '#/schemas/squareMeterPrice'
             }
           }
         }

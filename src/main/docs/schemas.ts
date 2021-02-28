@@ -1,5 +1,7 @@
-import { SquareMeterPriceSchema } from './schemas/'
+import { squareMeterPriceSchema } from './schemas/'
+import { errorSchema } from './schemas/error-schema'
 
 export default {
-  squareMeterPriceSchema: SquareMeterPriceSchema
+  squareMeterPrice: squareMeterPriceSchema,
+  error: errorSchema
 }
