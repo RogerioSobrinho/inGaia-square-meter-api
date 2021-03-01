@@ -3,5 +3,5 @@ import { makeSquareMetrePriceController } from '@/main/factories'
 import { Router } from 'express'
 
 export default (router: Router): void => {
-  router.get('/square-metre/price', adaptRoute(makeSquareMetrePriceController()))
+  router.get('/square-meter/price', adaptRoute(makeSquareMetrePriceController()))
 }
